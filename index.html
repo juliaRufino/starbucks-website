@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="./img/logo.png">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./img/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Não é apenas um café<br>É <span>Starbucks</span></h2>
+                <p>Descubra o extraordinário sabor e a experiência única que o Starbucks tem a oferecer! Se você é um
+                    amante de café ou simplesmente gosta de lugares aconchegantes para desfrutar de momentos especiais,
+                    o Starbucks é o local perfeito para você.</p>
+                <a href="https://starbucks.com.br/">Saiba Mais!</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="./img/img1.png" class="starbucks">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./img/thumb1.png" onclick="imgSlider('./img/img1.png');changeColorCircle('#017143');changeColorStarbucks('#017143'); changeColorButton('#017143')"></li>
+            <li><img src="./img/thumb2.png" onclick="imgSlider('./img/img2.png');changeColorCircle('#EB7495');changeColorStarbucks('#EB7495'); changeColorButton('#EB7495')"></li>
+            <li><img src="./img/thumb3.png" onclick="imgSlider('./img/img3.png');changeColorCircle('#D752B1');changeColorStarbucks('#D752B1'); changeColorButton('#D752B1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/StarbucksBrasil"><img src="./img/facebook.png"></a></li>
+            <li><a href="https://twitter.com/StarbucksBrasil"><img src="./img/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/starbucksbrasil/"><img src="./img/instagram.png"></a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
+
+<script src="script.js"></script>
