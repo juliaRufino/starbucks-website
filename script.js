@@ -12,6 +12,7 @@ function changeColorStarbucks(color) {
     span.style.color = color;
 }
 
+
 function changeColorButton(color) {
     const button = document.querySelector('.content .textBox a');
     button.style.backgroundColor = color;

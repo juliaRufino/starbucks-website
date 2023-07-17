@@ -123,6 +123,16 @@ header ul li a:hover {
     max-width: 400px;
 }
 
+.starbucks {
+    animation-name: balançar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balançar {
+    50%   {transform: rotate(8deg);}
+  }
+
 .thumb {
     position: absolute;
     left: 50%;
